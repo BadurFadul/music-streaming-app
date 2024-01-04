@@ -1,9 +1,12 @@
 import React from 'react';
+import { MusicPlayer } from './components';
 
-const App = () => (
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-    </h1>
+const App = () => {
+  return (
+    <div>
+      <MusicPlayer />
+    </div>
   )
+}
 
-export default App;
+export default App

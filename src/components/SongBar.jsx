@@ -1,5 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-export const SongBar = () => (
-  <div>SongBar</div>
-);
+const SongBar = () => {
+  return (
+    <div>SongBar</div>
+  )
+}
+
+export default SongBar
